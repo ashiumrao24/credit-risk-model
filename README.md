@@ -60,44 +60,66 @@ It includes data preprocessing, feature encoding, model training, evaluation, an
 
 ## 🏃‍♂️ How to Run the Project
 
-### **1️⃣ Install dependencies**
+### 1️⃣ Install Dependencies
+
 ```bash
 pip install -r requirements.txt
-(If you don’t have a requirements file, generate one using:)
+```
+
+If you don’t have a `requirements.txt` file, generate one using:
+
+```bash
 pip freeze > requirements.txt
-#### **1️⃣ Run the Streamlit app**
-streamlit run app.py
-The app will open in your browser and allow you to input applicant details to get a predicted credit risk.
+```
+
 ---
+
+### 2️⃣ Run the Streamlit App
+
+```bash
+streamlit run app.py
+```
+
+The app will open in your browser and allow you to input applicant details to get a predicted credit risk.
+
+---
+
 ## 📊 Dataset Information
-Source: German Credit Data
 
-Samples: 1000
+**Source:** German Credit Data  
+**Samples:** 1000  
 
-Task: Predict whether a person is a good or bad credit risk
+### 📝 Task  
+Predict whether a person is a **good** or **bad** credit risk.
 
-Features:
-- Age
-- Job
-- Housing
-- Credit amount
-- Duration
-- Purpose
-- Checking account status
-And more…
+### 🔑 Features Include:
+- Age  
+- Job  
+- Housing  
+- Credit amount  
+- Duration  
+- Purpose  
+- Checking account status  
+- And more…
 
-📈 Model Evaluation
+---
+
+## 📈 Model Evaluation
+
 The model was evaluated using:
-* Accuracy
-* Confusion Matrix
-* Feature Importance
-* Train-test split validation
 
-🛠️ Technologies Used
-* Python
-* Pandas, NumPy
-* Scikit-learn
-* Streamlit
-* Matplotlib / Seaborn
-* Jupyter Notebook
+- **Accuracy**
+- **Confusion Matrix**
+- **Feature Importance**
+- **Train-test split validation**
 
+---
+
+## 🛠️ Technologies Used
+
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Streamlit  
+- Matplotlib / Seaborn  
+- Jupyter Notebook  
