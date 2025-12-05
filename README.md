@@ -17,6 +17,7 @@ It includes data preprocessing, feature encoding, model training, evaluation, an
 
 ---
 ## 📁 Project Structure
+```markdown
 📦 credit-risk-model/
 │
 ├── 📁 src/
@@ -42,7 +43,7 @@ It includes data preprocessing, feature encoding, model training, evaluation, an
 ├── requirements.txt                     # Python dependencies
 ├── README.md                            # Project documentation
 └── .gitignore                           # Files/folders to ignore in Git
-
+```
 
 ---
 
