@@ -67,8 +67,8 @@ pip freeze > requirements.txt
 #### **1️⃣ Run the Streamlit app**
 streamlit run app.py
 The app will open in your browser and allow you to input applicant details to get a predicted credit risk.
-
-📊 Dataset Information
+---
+## 📊 Dataset Information
 Source: German Credit Data
 
 Samples: 1000
