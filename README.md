@@ -40,9 +40,7 @@ It includes data preprocessing, feature encoding, model training, evaluation, an
 ├── 📁 notebooks/
 │   └── analysis_model.ipynb             # EDA + model development notebook
 │
-├── requirements.txt                     # Python dependencies
-├── README.md                            # Project documentation
-└── .gitignore                           # Files/folders to ignore in Git
+├── readme.md                     # documentation
 ```
 
 ---
