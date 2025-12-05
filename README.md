@@ -16,23 +16,33 @@ It includes data preprocessing, feature encoding, model training, evaluation, an
 - 💾 Saved model and encoders (`.pkl` files)
 
 ---
+## 📁 Project Structure
+📦 credit-risk-model/
+│
+├── 📁 src/
+│   ├── app.py                  # Streamlit application for predictions
+│   └── utils.py                # Helper functions (optional)
+│
+├── 📁 models/
+│   ├── extra_trees_credit_model.pkl    # Trained ML model
+│   ├── 📁 encoders/                     # All feature encoders
+│   │     ├── Sex_encoder.pkl
+│   │     ├── Checking_account_encoder.pkl
+│   │     ├── Saving_accounts_encoder.pkl
+│   │     ├── Housing_encoder.pkl
+│   │     └── target_encoder.pkl
+│   └── ...
+│
+├── 📁 data/
+│   └── german_credit_data.csv           # Dataset used for training
+│
+├── 📁 notebooks/
+│   └── analysis_model.ipynb             # EDA + model development notebook
+│
+├── requirements.txt                     # Python dependencies
+├── README.md                            # Project documentation
+└── .gitignore                           # Files/folders to ignore in Git
 
-## 📂 Project Structure
-
-credit-risk-model/
-│
-├── analysis_model.ipynb # Jupyter notebook with EDA + model development
-├── app.py # Streamlit application for predictions
-├── german_credit_data.csv # Dataset used for training
-│
-├── extra_trees_credit_model.pkl # Trained ML model
-├── Sex_encoder.pkl # Encoder for Sex column
-├── Checking account_encoder.pkl # Other encoders
-├── Saving accounts_encoder.pkl
-├── Housing_encoder.pkl
-├── target_encoder.pkl
-│
-└── README.md # Project documentation
 
 ---
 
