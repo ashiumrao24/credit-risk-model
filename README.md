@@ -76,13 +76,13 @@ Samples: 1000
 Task: Predict whether a person is a good or bad credit risk
 
 Features:
-* Age
-* Job
-* Housing
-* Credit amount
-* Duration
-* Purpose
-* Checking account status
+- Age
+- Job
+- Housing
+- Credit amount
+- Duration
+- Purpose
+- Checking account status
 And more…
 
 📈 Model Evaluation
