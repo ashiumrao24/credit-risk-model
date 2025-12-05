@@ -64,7 +64,7 @@ It includes data preprocessing, feature encoding, model training, evaluation, an
 pip install -r requirements.txt
 (If you don’t have a requirements file, generate one using:)
 pip freeze > requirements.txt
-2️⃣ Run the Streamlit app
+#### **1️⃣ Run the Streamlit app**
 streamlit run app.py
 The app will open in your browser and allow you to input applicant details to get a predicted credit risk.
 
